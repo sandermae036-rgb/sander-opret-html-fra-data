@@ -11,3 +11,5 @@ students.forEach(function(student){
     divElement.textContent = `${student.name}, alder: ${student.age}, uddanelse: ${student.course}`;
     root.append(divElement);
 });
+
+divElement.classList.add("student");
