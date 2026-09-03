@@ -8,8 +8,7 @@ const root = document.querySelector(".idk");
 
 students.forEach(function(student){
     const divElement = document.createElement("div");
+    divElement.classList.add("student");
     divElement.textContent = `${student.name}, alder: ${student.age}, uddanelse: ${student.course}`;
     root.append(divElement);
 });
-
-divElement.classList.add("student");
